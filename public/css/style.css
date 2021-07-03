@@ -1,0 +1,159 @@
+.quote {
+    font-size:xx-large;
+    font-family: "Arial Rounded MT Bold";
+    text-blink: 10px;
+    font-style: oblique;
+    color: black;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: normal;
+
+}
+
+.pghead{
+    font-size:xx-large;
+    font-family: "Agency FB";
+    text-blink: 10px;
+    font-style: oblique;
+    color: Black;
+    text-decoration: underline;
+    text-decoration-color: darkred;
+    text-decoration-style: solid;
+
+}
+footer .container-fluid{
+    overflow: hidden;
+    margin-top: 250px;
+    background: #262626;
+    color: #627482 !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+footer .body{
+    background: linear-gradient(0deg, #fff, #DEEEFE);
+    font-family: 'Rubik', sans-serif;
+    background: #455A64;
+    height: 100px; !important
+}
+
+
+
+body{
+    border: none;
+}
+
+.container{
+    border: darkred dot-dash;
+}
+
+
+.padding-0{
+     padding-right:0;
+     padding-left:0;
+ }
+
+
+.post-title {
+    color: black;
+    font-size: xx-large;
+    font-family: "Arial Black";
+    text-decoration-style: solid;
+    text-shadow: #cbd5e0;
+    text-underline: darkred;
+}
+
+.img-hover-zoom {
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+    width: 200px;
+    transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+    transform: scale(1.5);
+}
+
+.small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+    color: #989c9e !important;
+    font-family: "Arial Rounded MT Bold";
+
+}
+
+.mt-55 {
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+h3 {
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.social {
+    font-size: 21px !important
+}
+
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.item{
+    background: white;
+    text-align: center;
+    height: 300px !important;
+}
+
+.carousel{
+    margin-top: 20px;
+}
+
+.bs-example{
+    margin: 20px;
+}
+
+.carousel.carousel-fade .item {
+    opacity:0;
+    filter: alpha(opacity=0); /* ie fix */
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    line-height: 1;
+    margin:auto;
+    width: 100%; // Add
+}
+.carousel.carousel-fade .active.item {
+    opacity:1;
+    filter: alpha(opacity=100); /* ie fix */
+}
+
+.itemm img{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    line-height: 1;
+    margin:auto;
+    width: 100%; // Add
+}
+
+h2{
+    margin: 0;
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;
+}
+
+#myCarousel{
+    height:auto;
+
+}
